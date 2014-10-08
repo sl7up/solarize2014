@@ -1,0 +1,157 @@
+body{
+	color: #555;
+	font: 300 14px/1.8 "Open Sans", Arial, sans-serif  ;
+	min-width: 960px;
+	}
+h3, h2{
+	font-size: 23px;
+	text-transform: uppercase;
+	font-weight: normal;
+	line-height: 1.6;
+	margin-bottom: 20px;
+}
+
+h2{
+	font-size: 26px;
+}
+
+h3{
+	font-size: 23px;
+}
+
+a, button{
+	transition: color .3 ease-in, background-color .3 ease-in, color .3 ease-in, border-color .3 ease-in;
+}
+
+.container{
+	width: 960px;
+	margin: auto;
+
+}
+.header-top{
+	background: url("http://templated.co/items/demos/solarize/images/banner.jpg") no-repeat 50% 0;
+	color: #fff;
+	text-align: center;
+	padding-bottom: 100px;
+	background-size:cover ;
+}
+
+.main-menu {
+	background-color: rgba(0,0,0, 0.4) ;
+
+}
+.main-menu li{
+	display: inline-block;
+	padding: 0 15px;
+	height: 58px;
+	line-height: 58px;
+}
+
+.main-menu li a{
+	text-transform: uppercase;
+	color: #ffffff;
+	text-decoration: none;
+	letter-spacing: 2px;
+	transition: all .3s linear;
+	color: transparent;
+	text-shadow: 0 0 1px #fff;
+}
+
+.main-menu li a:hover{
+	color: #fff;
+	text-shadow: 0 0 0 #fff;
+}
+
+.banner{
+	padding-top: 60px;
+
+}
+
+.banner p{
+	font-size: 26px;
+	letter-spacing: 1px;
+	line-height: 42px;
+	text-transform: uppercase;
+	margin-top: 20px;
+	font-weight: 300;
+	padding: 0 30px;
+}
+
+.banner .logo{
+	margin-top: 40px;
+	background-color: #82B440;
+	text-transform: uppercase;
+	font-size: 48px;
+	display: inline-block;
+	padding: 0 10px;
+	font-weight: 300;
+	line-height: 1.4;
+}
+
+.col-1, .col-2{
+	float: left;
+	width: 47%;
+
+}
+
+.col-1{
+	margin-right: 3%;
+}
+
+.col-2{
+	margin-right: 3%;
+}
+
+.row{
+	padding: 80px 0;
+	background-color: #f2f2f2;
+}
+
+.bg-grey{
+	background-color: #f2f2f2;
+}
+
+.caption{
+	font-size: 21px;
+	margin-top: 20px;
+}
+
+.button, button{
+	border: 2px solid #82B440;
+	color: #82B440;
+	padding: 20px;
+	text-transform: uppercase;
+	display: inline-block;
+	text-decoration: none;
+	line-height: 1;
+	font-size: 23px;
+
+}
+
+.button:hover, button{
+	background-color: #82B440;
+	color: #fff;
+}
+
+p + .button, button{
+	margin-top: 30px;
+}
+
+p ~ .button, button{
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
